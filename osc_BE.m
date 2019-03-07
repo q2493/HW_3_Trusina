@@ -30,6 +30,7 @@ xlabel('t');
 ylabel('u');
 title('Backward Euler')
 
+% Comparison of other schemes
 figure
 subplot(3,1,1);
 plot(t, u, 'k-', t, true_sol, 'r--');
